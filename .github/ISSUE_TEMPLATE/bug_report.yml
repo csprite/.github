@@ -17,14 +17,16 @@ body:
     validations:
       required: true
 
-  - id: OS
+  - type: input
+    id: OS
     attributes:
       label: Operating System
       description: Operating System the bug is occuring on, use comma to separate one or more OSes
     validations:
       required: true
 
-  - id: Version
+  - type: input
+    id: Version
     attributes:
       label: Version
       description: Version on which the bug is occuring, or a commit hash

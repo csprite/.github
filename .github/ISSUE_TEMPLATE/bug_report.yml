@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report, Make sure there aren't any open/closed issues for this topic.
-        
+
   - type: textarea
     id: bug-description
     attributes:
@@ -16,7 +16,21 @@ body:
       description: Give us a brief description of what happened and what should have happened
     validations:
       required: true
-      
+
+  - id: OS
+    attributes:
+      label: Operating System
+      description: Operating System the bug is occuring on, use comma to separate one or more OSes
+    validations:
+      required: true
+
+  - id: Version
+    attributes:
+      label: Version
+      description: Version on which the bug is occuring, or a commit hash
+    validations:
+      required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:

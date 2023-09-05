@@ -2,7 +2,7 @@
 
 if you are a developer and want to contribute to the csprite codebase read more about following before contributing:
 - [Code Style, Structure & Contribution Guidelines](#code-style-structure--contribution-guidelines)
-- [Copyright / Contributor License Agreement](#copyright--contributor-license-agreement)
+- [The Contributor License Agreement](https://github.com/csprite/.github/blob/master/CLA.md)
 
 ## Code Style, Structure & Contribution Guidelines
 
@@ -24,12 +24,3 @@ if you are a developer and want to contribute to the csprite codebase read more 
   - `.cpp`, `.c` files contain implementation of a particular feature, like a `config.cpp` would contain functions for working with config files.
   - `.hpp`, `.h` files contain the publicly available function available by that corresponding `.cpp` / `.c` file.
   - if there are more than 2 files for a particular implementation it should be transferred into it's own directory.
-
-## Copyright / Contributor License Agreement
-
-Any code you submit will become part of the repository and be distributed under the license that repository follows. By submitting code to the project you agree that the code is your work and that you can give it to the project.
-
-You also agree by submitting your code that you grant all transferrable rights to the code to the project maintainer, including for example re-licensing the code, modifying the code, and distributing it in source or binary forms. Specifically, this includes a requirement that you assign copyright to the project maintainer. For this reason, do not modify any copyright statements in files in any PRs.
-
----
-# Thanks

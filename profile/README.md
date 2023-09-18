@@ -8,5 +8,5 @@
 *csprite was made awesome because of these people:*
 
 <a href="https://github.com/csprite/csprite/graphs/contributors">
-  <img src="https://contributors-img.firebaseapp.com/image?repo=csprite/csprite&max=10000" />
+  <img width="500" src="https://csprite.github.io/contrib-collage/csprite-csprite.png" />
 </a>
